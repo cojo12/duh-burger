@@ -1,11 +1,4 @@
-DROP DATABASE IF EXISTS burger_db;
-CREATE database burger_db;
+INSERT INTO burger_db (burger_name) VALUES ('Cheeseburger')
+INSERT INTO burger_db (burger_name) VALUES ('Bacon Burger')
+INSERT INTO burger_db (burger_name, inhaled) VALUES ('Chili Burger')
 
-USE burger_db;
-
-CREATE TABLE burger (
-  id INT NOT NULL AUTO INCREMENT,
-  burger_name VARCHAR (255) NOT NULL,
-  inhaled BOOLEAN DEFAULT false,
-  PRIMARY KEY (id)
-);
