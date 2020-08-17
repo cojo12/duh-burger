@@ -1,4 +1,3 @@
-INSERT INTO burger_db (burger_name) VALUES ('Cheeseburger')
-INSERT INTO burger_db (burger_name) VALUES ('Bacon Burger')
-INSERT INTO burger_db (burger_name, inhaled) VALUES ('Chili Burger')
-
+INSERT INTO burgers (burger_name, devoured) VALUES ('Cheese Burger', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Hamburger', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Pizza Burger', FALSE);
